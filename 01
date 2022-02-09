@@ -2,3 +2,11 @@ import Foundation
 
 var hello: String = "Hello, world!"
 print(hello)
+
+// task 1
+func getTemp(in city: String) -> (city: String, temp: Int) {
+    let temp = Int.random(in 5...36)
+    return (city, temp)
+}
+let tupleTemp = gettemp(in: "Moscow")
+print(tupleTemp.city)
