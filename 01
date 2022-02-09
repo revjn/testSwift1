@@ -1,0 +1,4 @@
+import Foundation
+
+var hello: String = "Hello, world!"
+print(hello)
